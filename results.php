@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-    
-    
-    </style>
 </head>
 <body>
 <style>
@@ -16,6 +12,7 @@
         width: 5em;
         height: 8em;
     } 
+
     body {
         background-image: url("./zoo.jpg");
         display: flex;
@@ -24,6 +21,12 @@
         flex-wrap: wrap;
         flex-direction: row !important;
        justify-content: center;
+    }
+
+    p {
+        color: black;
+        font-size:1em;
+        margin-top:4em;
     }
         
     
@@ -55,7 +58,7 @@ class apa extends Animal {
     }
 
     function sound() {
-        return " <p>my sound is:</p>" ." <p>hohohohoohoho</p>";
+        return " <p>my sound is:</p> <br>" ." <p>hohohohoohoho</p>";
     }
 
 }
@@ -73,7 +76,7 @@ class tiger extends Animal {
     }
 
     function sound() {
-        return " <p>my sound is:</p>" ." <p>rawwwr</p>";
+        return " <p>my sound is:</p> <br>" ." <p>rawwwr</p>";
     }
 }
 
@@ -90,7 +93,7 @@ class giraff extends Animal {
     }
 
     function sound() {
-        return " <p>my sound is:</p>" ." <p>pfffffff</p>";
+        return " <p>my sound is:</p> <br>" ." <p>pfffffff</p>";
 
     }
 }
