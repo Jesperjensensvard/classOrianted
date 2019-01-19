@@ -26,7 +26,10 @@
     p {
         color: black;
         font-size:1em;
-        margin-top:4em;
+        margin:0;
+        position: relative;
+        top:8em;
+        right:5em;
     }
         
     
@@ -58,7 +61,7 @@ class apa extends Animal {
     }
 
     function sound() {
-        return " <p>my sound is:</p> <br>" ." <p>hohohohoohoho</p>";
+        return "<p>hohohohoohoho</p>";
     }
 
 }
@@ -76,7 +79,7 @@ class tiger extends Animal {
     }
 
     function sound() {
-        return " <p>my sound is:</p> <br>" ." <p>rawwwr</p>";
+        return " <p>rawwwr</p>";
     }
 }
 
@@ -93,7 +96,7 @@ class giraff extends Animal {
     }
 
     function sound() {
-        return " <p>my sound is:</p> <br>" ." <p>pfffffff</p>";
+        return " <p>pfffffff</p>";
 
     }
 }
@@ -110,7 +113,7 @@ class nuts extends Animal {
     }
 
     function sound() {
-        return "<p> my sound is: </p>" . "<p>puuffffff</p>" . "<p> But only if i fall </P>";
+        return  "<p>puuffffff</p>" ;
     }
 }
 
