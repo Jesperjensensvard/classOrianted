@@ -65,15 +65,18 @@
    
 
 </style>
+
+
+    
 <div>
 <h1>Skapa ditt zoooo</h1>
 <h2>lägg till hur många djur du vill och hur mycket mat de vill ha</h2>
 
 <form action="results.php" method="POSt">
-    <input id="apa" type="number" name="apor">
-    <input id="tiger" type="number" name="tiger">
-    <input id="giraff"type="number" name="giraff">
-    <input id="nuts" type="number" name="nut">
+    <input id="apa" type="number" name="apor" placeholder="NR of Apes">
+    <input id="tiger" type="number" name="tiger" placeholder="NR of tiger">
+    <input id="giraff"type="number" name="giraff" placeholder="NR of giraff">
+    <input id="nuts" type="number" name="nut" placeholder="NR of nuts">
     <br><br>
     <button type="submit" id="leButt">visa mitt zoo</button>
 </form>

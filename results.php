@@ -5,13 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+    
+    
+    </style>
 </head>
 <body>
 <style>
     img {
         width: 5em;
         height: 8em;
+    } 
+    body {
+        background-image: url("./zoo.jpg");
+        display: flex;
+        margin-top: 6em;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: row !important;
+       justify-content: center;
     }
+        
+    
 </style>
 
 <?php
@@ -27,6 +42,7 @@ abstract class Animal {
 
 
 class apa extends Animal {
+
     private $bild;
 
     function __construct( $bild){
@@ -45,6 +61,7 @@ class apa extends Animal {
 }
 
 class tiger extends Animal {
+    
     private $bild; 
 
     function __construct($bild) {
@@ -61,6 +78,7 @@ class tiger extends Animal {
 }
 
 class giraff extends Animal {
+
     private $bild;
 
     function __construct($bild) {
@@ -76,8 +94,6 @@ class giraff extends Animal {
 
     }
 }
-
-
 
 class nuts extends Animal {
     private $bild;
@@ -109,7 +125,6 @@ for ($i=0; $i < $mainApor; $i++) {
     echo $finalape;
 }
 
-
 for ($i=0; $i < $mainTiger; $i++) { 
     echo $finaltiger;
 }
@@ -121,6 +136,7 @@ for ($i=0; $i < $mainGiraff; $i++) {
 for ($i=0; $i < $mainNUt; $i++) { 
     echo $finalnut;
 }
+
 ?>
 </body>
 </html>
